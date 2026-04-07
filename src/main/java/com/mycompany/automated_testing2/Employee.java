@@ -10,4 +10,19 @@ package com.mycompany.automated_testing2;
  */
 public class Employee {
     
+    //Data Fields
+    private double salary;
+    
+    //Create a constructor
+    public Employee (double salary) {
+        this.salary = salary;
+    }
+    
+    //Create a calculate salary method
+    public double calculateSalary (double bonus, double taxRate) {
+        double grossSalary = salary + bonus;
+        double tax = grossSalary * taxRate;
+        return grossSalary - tax;
+    }
+    
 }
