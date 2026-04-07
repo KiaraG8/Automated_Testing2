@@ -38,7 +38,7 @@ public class EmployeeTest {
         
         //Manual
         
-        //Declarations
+        //Declarations : Test Data
         double salary = 5000;
         double bonusTwo= 1000;
         double taxRateTwo = 0.15;
